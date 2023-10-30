@@ -3,8 +3,8 @@ import Logo from '../../assets/LOGO.png'
 
 function LoginForm() {
     return (
-        <div className='grid place-content-center bg-form'>
-            <div className=' flex  justify-center'>
+        <div className='grid place-content-center'>
+            <div className=' flex  justify-center '>
             <img className='   shadow-2xl  rounded-full' src={Logo} alt="logo" />
             </div>
             <form className=' bg-white p-14 rounded-2xl flex flex-col gap-5 my-3  shadow-2xl'>
