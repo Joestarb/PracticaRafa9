@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Test from "./Components/Test";
+import HomePage from "./pages/HomePage";
 import Index from "./pages/Index";
-import Loginp from "./pages/Loginp";
-import Registrop from "./pages/Registrop";
+import Login from "./pages/Login";
+import RecuperarContrasena from "./pages/RecuperarContrasena";
 function App() {
 
   return (
@@ -11,8 +12,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/test" element={<Test />} />
-          <Route path="/login" element={<Loginp />} />
-          <Route path="/registro" element={<Registrop />} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/recuperar" element={<RecuperarContrasena/>} />
+          <Route path="/homepage" element={<HomePage/>} />
+
+
+
 
 
 
