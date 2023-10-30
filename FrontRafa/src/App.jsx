@@ -4,12 +4,27 @@ import HomePage from "./pages/HomePage";
 import Index from "./pages/Index";
 import Login from "./pages/Login";
 import RecuperarContrasena from "./pages/RecuperarContrasena";
+
 function App() {
 
   return (
     <div>
       <BrowserRouter>
         <Routes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
           <Route path="/" element={<Index />} />
           <Route path="/test" element={<Test />} />
           <Route path="/login" element={<Login/>} />
