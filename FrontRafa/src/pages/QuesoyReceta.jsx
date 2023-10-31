@@ -3,6 +3,7 @@ import AdminNavHome from '../Components/Admin/AdminNavHome'
 import AdminNavbar from '../Components/Admin/AdminNavbar'
 import FormQuesoReceta from '../Components/Admin/QuesosRecetas/FormQuesoReceta'
 import Quesos from '../Components/Admin/QuesosRecetas/Quesos'
+import Footer from '../Components/Footer/Footer'
 
 function QuesoyReceta() {
     return (
@@ -13,6 +14,7 @@ function QuesoyReceta() {
                 <FormQuesoReceta />
                 <Quesos />
             </div>
+            <Footer/>
         </div>
     )
 }

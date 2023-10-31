@@ -2,6 +2,7 @@ import React from 'react'
 import AdminNavHome from '../Components/Admin/AdminNavHome'
 import AdminNavbar from '../Components/Admin/AdminNavbar'
 import FormAnadirTrabajadores from '../Components/Admin/AnadirTrabajadores/FormAnadirTrabajadores'
+import Footer from '../Components/Footer/Footer'
 
 function AnadirTrabajadores() {
     return (
@@ -9,7 +10,8 @@ function AnadirTrabajadores() {
             <AdminNavHome />
             <AdminNavbar />
             <FormAnadirTrabajadores/>
-        </div>
+            <Footer />
+                    </div>
     )
 }
 
