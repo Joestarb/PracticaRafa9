@@ -2,6 +2,7 @@ import React from 'react'
 import AdminNavHome from '../Components/Admin/AdminNavHome'
 import AdminNavbar from '../Components/Admin/AdminNavbar'
 import CrudTrabajadores from '../Components/Admin/CrudTrabajadores'
+import Footer from '../Components/Footer/Footer'
 
 function HomePage() {
     return (
@@ -9,6 +10,7 @@ function HomePage() {
             <AdminNavHome />
             <AdminNavbar/>
             <CrudTrabajadores/>
+            <Footer/>
         </div>
     )
 }
