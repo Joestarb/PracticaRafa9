@@ -1,21 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 function AdminNavbar() {
   return (
-    <div >
-        <div className=' my-4     shadow-2xl '>
-        <nav className=' flex justify-evenly   border-white border-4 py-4 '>
-        <a href="">Sistema</a>
-        <a href="">Añadir Receta</a>
-        <a href="">Crear Trabajadores</a>
-        <a href="">Registro Trabajadores</a>
-        <a href="">Inventario</a>
+    <div>
+      <div className='my-4 shadow-2xl'>
+        <nav className='flex justify-evenly border-white border-4 py-4 '>
+          <Link to="/index">Sistema</Link>
+          <Link to="/anadirReceta">Añadir Receta</Link>
+          <Link to="/anadir">Registro Trabajadores</Link>
         </nav>
-
-        </div>
- 
+      </div>
     </div>
-  )
+  );
 }
 
 export default AdminNavbar
