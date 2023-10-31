@@ -1,10 +1,12 @@
 import React from 'react';
-import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
+import { AiFillDelete, AiFillEdit } from 'react-icons/ai';
 import { GrAddCircle } from 'react-icons/gr';
-
+import AdminNavHome from '../Components/Admin/AdminNavHome';
 
 function Index() {
   return (
+  <>
+  <AdminNavHome/>
     <div className="App flex flex-col items-center h-screen p-4">
       <div className="w-full max-w-4xl">
         <div className="flex justify-between items-start mb-4">
@@ -83,6 +85,7 @@ function Index() {
         </table>
       </div>
     </div>
+    </>
   );
 }
 
