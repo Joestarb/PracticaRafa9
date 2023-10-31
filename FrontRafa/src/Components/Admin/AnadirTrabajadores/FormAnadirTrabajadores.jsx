@@ -15,11 +15,11 @@ function FormAnadirTrabajadores() {
 
                 <label className='my-1' htmlFor="Contraseña">Confirmar Contraseña: </label><input className='   w-80 rounded-lg p-1  border-gray-400   border-2 ' type="password" name="Contraseña" />
 
-                <label className='my-1' htmlFor="Disponibilidad">Disponibilidad: </label><input className='   w-80 rounded-lg p-1  border-gray-400   border-2 ' type="password" name="Disponibilidad" />
+                <label className='my-1' htmlFor="Disponibilidad">Disponibilidad: </label><input className='   w-80 rounded-lg p-1  border-gray-400   border-2 ' type="text" name="Disponibilidad" />
 
-                <label className='my-1' htmlFor="Teléfono">Teléfono: </label><input className='   w-80 rounded-lg p-1  border-gray-400   border-2 ' type="password" name="Teléfono" />
+                <label className='my-1' htmlFor="Teléfono">Teléfono: </label><input className='   w-80 rounded-lg p-1  border-gray-400   border-2 ' type="text" name="Teléfono" />
 
-                <label className='my-1' htmlFor="Informacion adicional">Informacion adicional: </label><input className='   w-80 rounded-lg p-1  border-gray-400   border-2 ' type="password" name="Informacion adicional" />
+                <label className='my-1' htmlFor="Informacion adicional">Informacion adicional: </label><input className='   w-80 rounded-lg p-1  border-gray-400   border-2 ' type="text" name="Informacion adicional" />
 
                 <div className=' flex justify-center items-center mt-6 gap-4'>
                     <button className=' border-[#2794E3] p-2 rounded-2xl px-8 border text-[#2794E3] hover:bg-[#2794E3]  hover:text-white duration-300 '>Cancelar</button>
