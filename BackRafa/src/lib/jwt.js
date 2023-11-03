@@ -10,7 +10,10 @@ export function createAccessToken(payload){
                 expiresIn: "1h",
             },
             // Callback
-            
-        )
+            (err, token) => {
+                if (err) reject(err);
+                resolve(token);
+            }
+        );
     })
 }

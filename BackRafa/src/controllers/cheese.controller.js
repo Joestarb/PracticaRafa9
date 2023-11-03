@@ -61,10 +61,10 @@ export const deleteCheese = async (req, res) => {
 
 export const updateCheese = async (req, res) => {
     const cheeseId = req.params.id;
-    const { nombreQueso, procedimientos, ingrediente_1, ingrediente_2, ingrediente_3 } = req.body; // Asegúrate de agregar aquí todos los ingredientes que necesites
+    const { nombreQueso, procedimientos, ingrediente_1, ingrediente_2, ingrediente_3, ingrediente_4, ingrediente_5, ingrediente_6, ingrediente_7, ingrediente_8, ingrediente_9, ingrediente_10 } = req.body; 
     conexion.query(
-      'UPDATE quesos SET nombreQueso = ?, procedimientos = ?, ingrediente_1 = ?, ingrediente_2 = ?, ingrediente_3 = ? WHERE idQueso = ?',
-      [nombreQueso, procedimientos, JSON.stringify(ingrediente), cheeseId],
+      'UPDATE quesos SET nombreQueso = ?, procedimientos = ?, ingrediente_1 = ?, ingrediente_2 = ?, ingrediente_3 = ?, ingrediente_4 = ?, ingrediente_5 = ?, ingrediente_6 = ?, ingrediente_7 = ?, ingrediente_8 = ?, ingrediente_9 = ?, ingrediente_10 = ? WHERE idQueso = ?',
+      [nombreQueso, procedimientos, ingrediente_1, ingrediente_2, ingrediente_3, ingrediente_4, ingrediente_5, ingrediente_6, ingrediente_7, ingrediente_8, ingrediente_9, ingrediente_10, cheeseId],
       (err, results) => {
           if (err) {
               console.error('Error al actualizar queso:', err);

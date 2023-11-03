@@ -1,4 +1,5 @@
 -- Active: 1696859538931@@127.0.0.1@3306@quecontrol
+CREATE DATABASE queControl;
 USE queControl;
 
 SHOW TABLES;
@@ -17,6 +18,7 @@ CREATE TABLE IF NOT EXISTS quesos(
     idQueso INT PRIMARY KEY AUTO_INCREMENT,
     nombreQueso VARCHAR(50) NOT NULL,
     procedimientos VARCHAR(150) NOT NULL,
+    imagen VARCHAR(255),
     ingrediente_1 VARCHAR(20),
     ingrediente_2 VARCHAR(20),
     ingrediente_3 VARCHAR(20),
